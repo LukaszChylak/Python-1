@@ -1,0 +1,10 @@
+plik = open("plik2.txt", "w")
+plik.write("dodajemy text do pliku1\n")
+plik.write("dodajemy text do pliku2\n")
+plik.write("dodajemy text do pliku3\n")
+plik.close()
+
+plik = open("plik2.txt","r")
+text = plik.read()
+print(text)
+plik.close()
